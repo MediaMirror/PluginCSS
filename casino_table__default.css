@@ -1,0 +1,95 @@
+/**
+ * Casino Table
+*/
+@media only screen and (min-width: 761px)  {
+
+    .mm-casino-table {
+        color: #323232;
+        border-radius: 4px;
+        overflow: hidden;
+        margin: 0;
+    }
+
+    .mm-casino-table thead th {
+        padding: 10px 0px;
+        color: #ffffff;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .mm-casino-table tr:nth-child(even) {
+        background-color: #efefef;
+    }
+
+    .mm-casino-table th, .mm-casino-table td {
+        vertical-align: middle;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        min-width: 130px;
+    }
+
+    .mm-casino-table__rank {
+        width: 50px;
+        font-size: 1.5em;
+    }
+
+    .mm-casino-table__logo {
+        width: 150px;
+    }
+
+    .mm-casino-table__logo a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+    }
+
+    .mm-casino-table__logo a img {
+        display: inline-block;
+        margin: 0px auto;
+        max-width: 80%;
+        max-height: 60%;
+    }
+
+
+    td.mm-casino-table__bonus {
+        font-size: 0.95rem;
+        line-height: 1.3rem;
+    }
+
+    td.mm-casino-table__info {
+        width: 20%;
+        font-size: 0.9em;
+        line-height: 1.2em;
+        font-style: italic;
+    }
+
+    .mm-casino-table__actions {
+        width: 200px;
+        padding: 10px;
+    }
+
+    .mm-casino-table__actions img {
+    	height: 25px;
+    }
+
+    .mm-casino-table__actions .mm-casino-table__play-btn {
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff !important;
+        font-size: 1em;
+        font-weight: bold;
+        padding: 3px 24px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #528009;
+        background: #1abc9c;
+    }
+
+    .mm-casino-table__actions .mm-casino-table__play-btn:hover {
+    	color: #ffffff;
+    }
+}
